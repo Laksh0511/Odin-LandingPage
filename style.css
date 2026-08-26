@@ -19,7 +19,10 @@ a{
     color: rgb(156, 156, 156);
 }
 .Hero{
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .Hero-Section{
     background-color: #1F2937 ;
@@ -29,17 +32,25 @@ a{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 .hero-secondary{
     font-size: 18px;
     font-weight: 900;
     color: #E5E7EB;
     width: 50%;
+    margin-bottom: 20px;
 }
 button{
     background-color: #3882F6;
+    border: none;
     border-radius: 10%;
     align-self: flex-start;
+    color: #E5E7EB;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 900;
 }
 .hero-text{
     display: flex;
@@ -57,9 +68,10 @@ section{
 .hero-image{
     display: flex;
     width: 50%;
-    background-color: #F9FAF8;
+    background-color: #808180;
     justify-content: center;
     align-items: center;
     width: 500;
     height:200;
+    color: black;
 }
